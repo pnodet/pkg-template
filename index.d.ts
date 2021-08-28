@@ -8,11 +8,11 @@ Description
 ```
 import main from 'package-name';
 
-main('foo/bar');
+main('hello');
 //=> true
 
-main('foo-bar');
-//=> true
+main(123);
+//=> false
 ```
 */
 export default function main(value: string): boolean;
