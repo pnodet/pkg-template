@@ -1,6 +1,6 @@
 {
 	"name": "pkg-template",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"description": "Small js package I use to help me to create npm packages",
 	"scripts": {
 		"lint": "xo --fix",
