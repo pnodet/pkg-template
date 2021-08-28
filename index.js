@@ -1,3 +1,3 @@
 export default function main(value) {
-  return true;
+	return typeof value === 'string';
 }

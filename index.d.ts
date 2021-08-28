@@ -1,5 +1,5 @@
 /**
-Check if a string is a [valid filename](https://github.com/sindresorhus/filename-reserved-regex).
+Description
 
 @param {String} value - A string.
 @returns {Boolean} True.
