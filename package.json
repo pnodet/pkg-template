@@ -4,7 +4,8 @@
 	"description": "Small template I use to quickly create npm packages",
 	"scripts": {
 		"lint": "xo --fix",
-		"test": "xo && ava && tsd"
+		"test": "xo && ava && tsd",
+		"watch:test": "ava --watch"
 	},
 	"repository": {
 		"type": "git",
@@ -37,5 +38,16 @@
 	"xo": {
 		"singleQuote": true,
 		"prettier": true
-	}
+	},
+	"prettier": {
+		"trailingComma": "all",
+		"singleQuote": true,
+		"bracketSpacing": false,
+		"jsxBracketSameLine": false
+	},
+	"keywords": [
+		"helper",
+		"template",
+		"javascript"
+	]
 }
