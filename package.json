@@ -1,6 +1,6 @@
 {
   "name": "small-package-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Small template to quickly create npm packages",
   "scripts": {
     "test": "xo && ava && tsd"
