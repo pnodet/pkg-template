@@ -1,7 +1,7 @@
 {
 	"name": "pkg-template",
 	"version": "0.1.1",
-	"description": "Small template I use to quickly create npm packages",
+	"description": "Small js package I use to help me to create npm packages",
 	"scripts": {
 		"lint": "xo --fix",
 		"test": "xo && ava && tsd",
@@ -47,6 +47,7 @@
 	},
 	"keywords": [
 		"helper",
+		"small",
 		"template",
 		"javascript"
 	]
