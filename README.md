@@ -2,7 +2,7 @@
 > Small js package I use to help me to create npm packages
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![GitHub workflow status](https://img.shields.io/github/workflow/status/pnxdxt/package-template/CI)](https://github.com/pnxdxt/package-template)
+[![GitHub workflow status](https://img.shields.io/github/workflow/status/pnxdxt/pkg-template/CI)](https://github.com/pnxdxt/package-template)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/pkg-template)](https://bundlephobia.com/package/pkg-template)
 [![npm downloads](https://img.shields.io/npm/dt/pkg-template)](https://www.npmjs.com/package/pkg-template)
 
