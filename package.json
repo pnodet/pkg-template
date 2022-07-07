@@ -1,6 +1,6 @@
 {
 	"name": "@pnxdxt/pkg-template",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Template repository to quickly create npm packages",
 	"main": "dist/index.js",
 	"module": "./dist/index.mjs",
