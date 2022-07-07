@@ -2,18 +2,26 @@
 	"name": "@pnxdxt/pkg-template",
 	"version": "0.0.1",
 	"description": "Template repository to quickly create npm packages",
-	"type": "module",
 	"main": "dist/index.js",
+	"module": "./dist/index.mjs",
 	"typings": "dist/index.d.ts",
 	"scripts": {
 		"clean": "rimraf dist/",
 		"build": "npm run clean && npm run build:src",
 		"build:src": "tsup src/index.ts",
 		"lint": "xo",
-		"lint:fix": "xo --fix"
+		"lint:fix": "xo --fix",
+		"test": "xo"
 	},
 	"engines": {
 		"node": ">=14.16"
+	},
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
 	},
 	"files": [
 		"dist",
@@ -53,7 +61,8 @@
 		"dts": true,
 		"target": "es2020",
 		"format": [
-			"esm"
+			"esm",
+			"cjs"
 		]
 	},
 	"keywords": [
